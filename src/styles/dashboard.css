@@ -1,0 +1,105 @@
+.dashboard-container{
+
+  min-height:100vh;
+
+  padding:30px;
+
+  background:linear-gradient(
+    135deg,
+    #dceeff,
+    #ffd6e7
+  );
+}
+
+.dashboard-container h2{
+  margin-bottom:30px;
+  color:#5b7fff;
+}
+
+.dashboard-grid{
+
+  display:grid;
+
+  grid-template-columns:
+  repeat(auto-fit,minmax(220px,1fr));
+
+  gap:20px;
+}
+
+.dashboard-card{
+
+  background:white;
+
+  padding:25px;
+
+  border-radius:20px;
+
+  box-shadow:0 4px 15px rgba(0,0,0,.08);
+
+  text-align:center;
+
+  transition:.3s;
+}
+
+.dashboard-card:hover{
+  transform:translateY(-5px);
+}
+
+.dashboard-card h4{
+  color:#666;
+}
+
+.dashboard-card h2{
+  color:#6ea8fe;
+}
+
+.activity-section{
+
+  background:white;
+
+  margin-top:25px;
+
+  padding:20px;
+
+  border-radius:20px;
+
+  box-shadow:0 4px 15px rgba(0,0,0,.08);
+}
+
+.activity-section ul{
+  padding-left:20px;
+}
+
+.activity-section li{
+  margin-bottom:10px;
+}
+
+.quick-actions{
+
+  margin-top:25px;
+
+  display:flex;
+
+  gap:15px;
+
+  flex-wrap:wrap;
+}
+
+.action-btn{
+
+  background:#ffb6d9;
+
+  color:white;
+
+  border:none;
+
+  padding:12px 20px;
+
+  border-radius:12px;
+
+  transition:.3s;
+}
+
+.action-btn:hover{
+  background:#ff92c5;
+}

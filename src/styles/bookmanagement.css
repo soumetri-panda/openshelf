@@ -1,0 +1,70 @@
+.book-management{
+  min-height:100vh;
+  padding:30px;
+
+  background:linear-gradient(
+    135deg,
+    #dceeff,
+    #ffd6e7
+  );
+}
+
+.book-form{
+  background:white;
+
+  padding:25px;
+
+  border-radius:20px;
+
+  display:flex;
+
+  gap:15px;
+
+  margin-bottom:25px;
+}
+
+.btn-add{
+  background:#6ea8fe;
+
+  color:white;
+
+  border:none;
+
+  padding:10px 20px;
+
+  border-radius:10px;
+}
+
+.book-table{
+  background:white;
+
+  padding:20px;
+
+  border-radius:20px;
+}
+
+.edit-btn{
+  background:#7fb3ff;
+
+  color:white;
+
+  border:none;
+
+  padding:8px 15px;
+
+  border-radius:8px;
+
+  margin-right:10px;
+}
+
+.delete-btn{
+  background:#ff9ac4;
+
+  color:white;
+
+  border:none;
+
+  padding:8px 15px;
+
+  border-radius:8px;
+}

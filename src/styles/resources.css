@@ -1,0 +1,94 @@
+.resources-container{
+  min-height:100vh;
+  padding:30px;
+
+  background:linear-gradient(
+    135deg,
+    #dceeff,
+    #ffd6e7
+  );
+}
+
+.resources-container h2{
+  color:#5b7fff;
+  margin-bottom:25px;
+}
+
+.search-box{
+  margin-bottom:30px;
+}
+
+.book-grid{
+  display:grid;
+
+  grid-template-columns:
+  repeat(auto-fit,minmax(250px,1fr));
+
+  gap:20px;
+}
+
+.book-card{
+
+  background:white;
+
+  padding:20px;
+
+  border-radius:20px;
+
+  text-align:center;
+
+  box-shadow:0 4px 15px rgba(0,0,0,.08);
+
+  transition:.3s;
+}
+
+.book-card:hover{
+  transform:translateY(-5px);
+}
+
+.book-cover{
+  font-size:50px;
+}
+
+.book-card h4{
+  color:#5b7fff;
+}
+
+.available{
+
+  background:#d4edda;
+
+  color:#155724;
+
+  padding:5px 12px;
+
+  border-radius:20px;
+}
+
+.issued{
+
+  background:#f8d7da;
+
+  color:#721c24;
+
+  padding:5px 12px;
+
+  border-radius:20px;
+}
+
+.reserve-btn{
+
+  margin-top:15px;
+
+  width:100%;
+
+  background:#ffb6d9;
+
+  color:white;
+
+  border:none;
+
+  padding:10px;
+
+  border-radius:10px;
+}

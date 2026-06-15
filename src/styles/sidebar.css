@@ -1,0 +1,42 @@
+.sidebar{
+  width:250px;
+  height:100vh;
+
+  background:white;
+
+  border-right:1px solid #eee;
+
+  padding:20px;
+}
+
+.logo{
+  color:#6ea8fe;
+  margin-bottom:30px;
+}
+
+.sidebar ul{
+  list-style:none;
+  padding:0;
+}
+
+.sidebar li{
+  margin-bottom:15px;
+}
+
+.sidebar a{
+  text-decoration:none;
+  color:#555;
+
+  display:block;
+
+  padding:12px;
+
+  border-radius:10px;
+
+  transition:.3s;
+}
+
+.sidebar a:hover{
+  background:#ffd6e7;
+  color:#6ea8fe;
+}

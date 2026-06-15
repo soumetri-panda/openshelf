@@ -1,0 +1,59 @@
+.issue-return-container{
+  min-height:100vh;
+  padding:30px;
+
+  background:linear-gradient(
+    135deg,
+    #dceeff,
+    #ffd6e7
+  );
+}
+
+.issue-form{
+  background:white;
+
+  padding:25px;
+
+  border-radius:20px;
+
+  display:flex;
+  gap:15px;
+
+  margin-bottom:25px;
+
+  box-shadow:0 4px 15px rgba(0,0,0,.08);
+}
+
+.issue-btn{
+  background:#6ea8fe;
+
+  color:white;
+
+  border:none;
+
+  padding:10px 20px;
+
+  border-radius:10px;
+}
+
+.return-btn{
+  background:#ff9ac4;
+
+  color:white;
+
+  border:none;
+
+  padding:10px 20px;
+
+  border-radius:10px;
+}
+
+.records-table{
+  background:white;
+
+  padding:20px;
+
+  border-radius:20px;
+
+  box-shadow:0 4px 15px rgba(0,0,0,.08);
+}
