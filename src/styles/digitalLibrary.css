@@ -1,0 +1,23 @@
+.digital-library-container {
+  padding: 20px;
+}
+
+.library-filters {
+  display: flex;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.resource-card {
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}

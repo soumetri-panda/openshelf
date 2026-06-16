@@ -7,15 +7,18 @@ function Login() {
 
   const [role, setRole] = useState("Student");
 
-  const handleLogin = () => {
-    if (role === "Admin") {
-      navigate("/admin-dashboard");
-    } else if (role === "Librarian") {
-      navigate("/librarian-dashboard");
-    } else {
-      navigate("/dashboard");
-    }
-  };
+ const handleLogin = () => {
+
+  localStorage.setItem("role", role);
+
+  if (role === "Admin") {
+    navigate("/admin-dashboard");
+  } else if (role === "Librarian") {
+    navigate("/librarian-dashboard");
+  } else {
+    navigate("/dashboard");
+  }
+};
 
   return (
     <div className="login-bg">

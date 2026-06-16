@@ -1,0 +1,192 @@
+.landing-container {
+  min-height: 100vh;
+  background: linear-gradient(
+    90deg,
+    #dfefff 0%,
+    #f7d6e8 100%
+  );
+}
+
+/* Navbar */
+
+.landing-navbar {
+  background: white;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.landing-logo {
+  font-size: 32px;
+  font-weight: 700;
+  color: #5f7df7;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.login-btn,
+.signup-btn {
+  border: none;
+  padding: 12px 24px;
+  border-radius: 12px;
+  cursor: pointer;
+  color: white;
+  background: #f6add5;
+}
+
+/* Hero */
+
+.hero-section {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-section h1 {
+  font-size: 72px;
+  color: #4f6ef7;
+  margin-bottom: 20px;
+}
+
+.hero-section p {
+  max-width: 850px;
+  margin: auto;
+  font-size: 22px;
+  color: #555;
+  line-height: 1.7;
+}
+
+.hero-buttons {
+  margin-top: 35px;
+}
+
+.explore-btn,
+.secondary-btn ,
+.more-btn {
+  border: none;
+  padding: 15px 30px;
+  border-radius: 12px;
+  margin: 0 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.explore-btn {
+  background: #5f7df7;
+}
+
+.more-btn {
+  background: #e93799;
+}
+
+.secondary-btn {
+  background: #f6add5;
+}
+
+/* Features */
+
+.features-section {
+  width: 85%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 70px 0;
+}
+
+.feature-card {
+  background: rgba(255,255,255,0.65);
+  backdrop-filter: blur(12px);
+  border-radius: 24px;
+  padding: 35px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+  transition: 0.3s;
+}
+
+.feature-card:hover {
+  transform: translateY(-10px);
+}
+
+.feature-card h3 {
+  color: #5f7df7;
+  margin-bottom: 15px;
+}
+
+/* Statistics */
+
+.stats-section {
+  width: 85%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.stat-card {
+  background: rgba(255,255,255,.75);
+  border-radius: 24px;
+  text-align: center;
+  padding: 40px;
+}
+
+.stat-card h2 {
+  font-size: 45px;
+  color: #5f7df7;
+}
+
+/* Architecture */
+
+.architecture-section {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.architecture-section h2 {
+  color: #5f7df7;
+  margin-bottom: 40px;
+}
+
+.arch-card {
+  background: white;
+  padding: 20px;
+  border-radius: 18px;
+  width: 250px;
+  margin: auto;
+  font-weight: 600;
+}
+
+.arch-arrow {
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+/* Footer */
+
+.landing-footer {
+  margin-top: 80px;
+  background: white;
+  text-align: center;
+  padding: 40px;
+}
+
+
+
+.landing-logo {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+.landing-logo img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+
